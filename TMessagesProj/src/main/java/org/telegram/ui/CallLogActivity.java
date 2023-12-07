@@ -29,12 +29,12 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ChatObject;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.MessageObject;
+import org.telegram.bautrukevich.NotificationCenter;
+import org.telegram.bautrukevich.R;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.ActionBar;

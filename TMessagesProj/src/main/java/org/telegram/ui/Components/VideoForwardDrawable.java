@@ -8,8 +8,8 @@ import android.graphics.PixelFormat;
 import android.graphics.drawable.Drawable;
 import android.text.TextPaint;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.LocaleController;
 
 public class VideoForwardDrawable extends Drawable {
 

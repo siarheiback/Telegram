@@ -12,11 +12,11 @@ import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.voip.VoIPService;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ChatObject;
+import org.telegram.bautrukevich.LiteMode;
+import org.telegram.bautrukevich.Utilities;
+import org.telegram.bautrukevich.voip.VoIPService;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 

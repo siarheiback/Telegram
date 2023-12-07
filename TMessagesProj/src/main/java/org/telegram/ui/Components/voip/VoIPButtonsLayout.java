@@ -7,7 +7,7 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.bautrukevich.AndroidUtilities;
 
 public class VoIPButtonsLayout extends FrameLayout {
 

@@ -14,10 +14,10 @@ import android.view.TextureView;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.OvershootInterpolator;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.EmuDetector;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.EmuDetector;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.Utilities;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 import org.telegram.ui.Components.Premium.StarParticlesView;
 

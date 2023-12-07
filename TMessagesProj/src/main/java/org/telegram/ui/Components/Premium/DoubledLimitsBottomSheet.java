@@ -17,12 +17,12 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.NotificationCenter;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.UserConfig;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.FixedHeightEmptyCell;

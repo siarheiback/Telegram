@@ -1,16 +1,16 @@
 package org.telegram.ui.Components.Premium.boosts.cells;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.bautrukevich.AndroidUtilities.dp;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.Gravity;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserObject;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.Emoji;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.UserObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AvatarDrawable;

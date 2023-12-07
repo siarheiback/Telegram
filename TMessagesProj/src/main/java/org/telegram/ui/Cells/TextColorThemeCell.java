@@ -16,8 +16,8 @@ import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.LocaleController;
 import org.telegram.ui.Components.LayoutHelper;
 
 public class TextColorThemeCell extends FrameLayout {

@@ -1,6 +1,6 @@
 package org.telegram.ui;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.bautrukevich.AndroidUtilities.dp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -43,18 +43,18 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.BotWebViewVibrationEffect;
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.DialogObject;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.support.LongSparseIntArray;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ApplicationLoader;
+import org.telegram.bautrukevich.BotWebViewVibrationEffect;
+import org.telegram.bautrukevich.ChatObject;
+import org.telegram.bautrukevich.DialogObject;
+import org.telegram.bautrukevich.Emoji;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.NotificationCenter;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.support.LongSparseIntArray;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_chatlists;

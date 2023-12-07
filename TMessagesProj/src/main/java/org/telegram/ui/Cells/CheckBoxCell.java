@@ -21,11 +21,11 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.Emoji;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.NotificationCenter;
+import org.telegram.bautrukevich.R;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.CheckBox2;
 import org.telegram.ui.Components.CheckBoxSquare;

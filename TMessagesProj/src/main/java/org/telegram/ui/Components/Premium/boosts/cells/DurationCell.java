@@ -4,8 +4,8 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.Gravity;
 
-import org.telegram.messenger.BillingController;
-import org.telegram.messenger.LocaleController;
+import org.telegram.bautrukevich.BillingController;
+import org.telegram.bautrukevich.LocaleController;
 import org.telegram.ui.ActionBar.SimpleTextView;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.LayoutHelper;

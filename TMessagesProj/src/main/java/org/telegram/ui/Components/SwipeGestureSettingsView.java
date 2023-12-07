@@ -16,11 +16,11 @@ import android.widget.FrameLayout;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SharedConfig;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.SharedConfig;
 import org.telegram.ui.ActionBar.Theme;
 
 public class SwipeGestureSettingsView extends FrameLayout {

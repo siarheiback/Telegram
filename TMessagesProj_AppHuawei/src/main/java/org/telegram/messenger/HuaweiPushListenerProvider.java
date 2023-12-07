@@ -1,4 +1,4 @@
-package org.telegram.messenger;
+package org.telegram.bautrukevich;
 
 import android.content.pm.PackageManager;
 import android.os.SystemClock;

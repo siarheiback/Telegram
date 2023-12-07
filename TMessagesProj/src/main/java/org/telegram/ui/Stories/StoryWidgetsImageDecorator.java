@@ -4,8 +4,8 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ImageReceiver;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ImageReceiver;
 import org.telegram.tgnet.tl.TL_stories;
 import org.telegram.ui.Components.Reactions.ReactionImageHolder;
 import org.telegram.ui.Components.Reactions.ReactionsLayoutInBubble;

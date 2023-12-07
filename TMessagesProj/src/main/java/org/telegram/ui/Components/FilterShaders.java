@@ -3,18 +3,16 @@ package org.telegram.ui.Components;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.graphics.PointF;
-import android.media.MediaFormat;
 import android.opengl.GLES11Ext;
 import android.opengl.GLES20;
 import android.opengl.GLUtils;
-import android.util.Log;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.BuildVars;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.MediaController;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.Utilities;
 import org.telegram.ui.Stories.recorder.StoryEntry;
 
 import java.nio.ByteBuffer;

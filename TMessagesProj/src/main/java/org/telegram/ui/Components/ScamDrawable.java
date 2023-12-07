@@ -9,9 +9,9 @@ import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.text.TextPaint;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.R;
 
 public class ScamDrawable extends Drawable {
 

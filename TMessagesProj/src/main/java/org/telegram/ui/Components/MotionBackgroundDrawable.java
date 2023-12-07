@@ -25,12 +25,12 @@ import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.GenericProvider;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.GenericProvider;
+import org.telegram.bautrukevich.LiteMode;
+import org.telegram.bautrukevich.NotificationCenter;
+import org.telegram.bautrukevich.Utilities;
 
 import java.lang.ref.WeakReference;
 

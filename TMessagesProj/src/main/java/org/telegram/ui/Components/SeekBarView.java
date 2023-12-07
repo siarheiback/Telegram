@@ -33,11 +33,11 @@ import android.widget.FrameLayout;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.Emoji;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.MessageObject;
+import org.telegram.bautrukevich.Utilities;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.util.ArrayList;

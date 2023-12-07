@@ -1,8 +1,8 @@
 package org.telegram.ui.Stories.recorder;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
-import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.bautrukevich.AndroidUtilities.dp;
+import static org.telegram.bautrukevich.AndroidUtilities.dpf2;
+import static org.telegram.bautrukevich.AndroidUtilities.lerp;
 
 import android.Manifest;
 import android.app.Activity;
@@ -20,7 +20,6 @@ import android.os.Build;
 import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,19 +29,18 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.BuildVars;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.MediaController;
+import org.telegram.bautrukevich.MessageObject;
+import org.telegram.bautrukevich.NotificationCenter;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.Utilities;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AnimatedFloat;
-import org.telegram.ui.Components.BulletinFactory;
 import org.telegram.ui.Components.ButtonBounce;
 import org.telegram.ui.Components.CircularProgressDrawable;
 import org.telegram.ui.Components.CubicBezierInterpolator;

@@ -1,6 +1,6 @@
 package org.telegram.ui.Stories;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.bautrukevich.AndroidUtilities.dp;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -8,9 +8,9 @@ import android.graphics.Path;
 import android.graphics.Region;
 import android.view.View;
 
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.UserConfig;
+import org.telegram.bautrukevich.MessageObject;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.UserConfig;
 import org.telegram.tgnet.tl.TL_stories;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.ChatActionCell;

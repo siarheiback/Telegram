@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.bautrukevich.AndroidUtilities;
 
 public class CircularProgressDrawable extends Drawable {
 

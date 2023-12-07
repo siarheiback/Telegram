@@ -14,8 +14,8 @@ import android.graphics.RectF;
 import android.os.Build;
 import android.text.Layout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LiteMode;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.LiteMode;
 
 public class LinkPath extends Path {
 

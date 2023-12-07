@@ -3,7 +3,6 @@ package org.telegram.ui.Stories;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.os.Build;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,14 +13,13 @@ import androidx.annotation.Nullable;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.UserConfig;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.util.ArrayList;
-import java.util.TreeSet;
 
 public class StoriesViewPager extends ViewPager {
 

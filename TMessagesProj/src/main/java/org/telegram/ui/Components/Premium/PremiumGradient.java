@@ -15,10 +15,10 @@ import android.graphics.drawable.Drawable;
 
 import androidx.core.content.ContextCompat;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
+import org.telegram.bautrukevich.ApplicationLoader;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.UserConfig;
 import org.telegram.ui.ActionBar.Theme;
 
 public class PremiumGradient {

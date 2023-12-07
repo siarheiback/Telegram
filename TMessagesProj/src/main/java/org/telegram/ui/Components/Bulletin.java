@@ -54,12 +54,12 @@ import androidx.dynamicanimation.animation.FloatValueHolder;
 import androidx.dynamicanimation.animation.SpringAnimation;
 import androidx.dynamicanimation.animation.SpringForce;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Emoji;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.R;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.Emoji;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.NotificationCenter;
+import org.telegram.bautrukevich.R;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ActionBar.Theme;

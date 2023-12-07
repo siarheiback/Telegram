@@ -19,20 +19,20 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.animation.AccelerateInterpolator;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DocumentObject;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.DocumentObject;
+import org.telegram.bautrukevich.FileLoader;
+import org.telegram.bautrukevich.ImageLocation;
+import org.telegram.bautrukevich.ImageReceiver;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.MessageObject;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.UserConfig;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.messenger.SvgHelper;
+import org.telegram.bautrukevich.SvgHelper;
 import org.telegram.ui.Components.Premium.PremiumLockIconView;
 
 public class StickerCell extends FrameLayout {

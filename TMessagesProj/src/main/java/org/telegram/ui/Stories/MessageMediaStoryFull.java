@@ -1,7 +1,7 @@
 package org.telegram.ui.Stories;
 
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.UserConfig;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.UserConfig;
 import org.telegram.tgnet.AbstractSerializedData;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.tgnet.tl.TL_stories;

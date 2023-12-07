@@ -14,7 +14,7 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.bautrukevich.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class SlideChooseView extends View {

@@ -11,14 +11,14 @@ import android.text.TextUtils;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DownloadController;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.DownloadController;
+import org.telegram.bautrukevich.FileLoader;
+import org.telegram.bautrukevich.ImageLoader;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.MessageObject;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.UserConfig;
 import org.telegram.tgnet.TLRPC;
 
 import java.io.File;

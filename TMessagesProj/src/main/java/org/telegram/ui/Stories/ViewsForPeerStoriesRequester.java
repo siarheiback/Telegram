@@ -1,8 +1,8 @@
 package org.telegram.ui.Stories;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.NotificationCenter;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.tl.TL_stories;
 

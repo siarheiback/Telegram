@@ -12,12 +12,12 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.SparseIntArray;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.Bitmaps;
-import org.telegram.messenger.DocumentObject;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SvgHelper;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ApplicationLoader;
+import org.telegram.bautrukevich.Bitmaps;
+import org.telegram.bautrukevich.DocumentObject;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.SvgHelper;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.io.File;

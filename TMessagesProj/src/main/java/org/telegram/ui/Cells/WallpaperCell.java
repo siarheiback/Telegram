@@ -28,12 +28,12 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SvgHelper;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.FileLoader;
+import org.telegram.bautrukevich.ImageLocation;
+import org.telegram.bautrukevich.MediaController;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.SvgHelper;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.BackupImageView;

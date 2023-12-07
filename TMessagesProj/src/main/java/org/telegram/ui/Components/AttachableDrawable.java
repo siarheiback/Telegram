@@ -1,6 +1,6 @@
 package org.telegram.ui.Components;
 
-import org.telegram.messenger.ImageReceiver;
+import org.telegram.bautrukevich.ImageReceiver;
 
 public interface AttachableDrawable {
     void onAttachedToWindow(ImageReceiver parent);

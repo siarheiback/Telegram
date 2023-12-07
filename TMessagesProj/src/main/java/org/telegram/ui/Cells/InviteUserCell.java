@@ -12,9 +12,9 @@ import android.content.Context;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ContactsController;
-import org.telegram.messenger.LocaleController;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ContactsController;
+import org.telegram.bautrukevich.LocaleController;
 import org.telegram.ui.ActionBar.SimpleTextView;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AvatarDrawable;

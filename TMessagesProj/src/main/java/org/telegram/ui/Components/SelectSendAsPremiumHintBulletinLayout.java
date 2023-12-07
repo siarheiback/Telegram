@@ -8,9 +8,9 @@ import android.graphics.PorterDuffColorFilter;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.R;
 import org.telegram.ui.ActionBar.Theme;
 
 @SuppressLint("ViewConstructor")

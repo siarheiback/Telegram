@@ -7,13 +7,12 @@ import android.opengl.GLES11Ext;
 import android.opengl.GLES20;
 import android.opengl.GLUtils;
 import android.os.Looper;
-import android.util.Log;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.DispatchQueue;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.SharedConfig;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.BuildVars;
+import org.telegram.bautrukevich.DispatchQueue;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.SharedConfig;
 import org.telegram.ui.Stories.recorder.StoryEntry;
 
 import java.nio.ByteBuffer;

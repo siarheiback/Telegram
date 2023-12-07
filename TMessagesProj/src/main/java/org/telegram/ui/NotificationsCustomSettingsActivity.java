@@ -8,10 +8,10 @@
 
 package org.telegram.ui;
 
-import static org.telegram.messenger.NotificationsController.TYPE_CHANNEL;
-import static org.telegram.messenger.NotificationsController.TYPE_GROUP;
-import static org.telegram.messenger.NotificationsController.TYPE_PRIVATE;
-import static org.telegram.messenger.NotificationsController.TYPE_STORIES;
+import static org.telegram.bautrukevich.NotificationsController.TYPE_CHANNEL;
+import static org.telegram.bautrukevich.NotificationsController.TYPE_GROUP;
+import static org.telegram.bautrukevich.NotificationsController.TYPE_PRIVATE;
+import static org.telegram.bautrukevich.NotificationsController.TYPE_STORIES;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -41,20 +41,20 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ChatObject;
-import org.telegram.messenger.ContactsController;
-import org.telegram.messenger.DialogObject;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MediaDataController;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.NotificationCenter;
-import org.telegram.messenger.NotificationsController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserObject;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ChatObject;
+import org.telegram.bautrukevich.ContactsController;
+import org.telegram.bautrukevich.DialogObject;
+import org.telegram.bautrukevich.FileLoader;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.MediaDataController;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.NotificationCenter;
+import org.telegram.bautrukevich.NotificationsController;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.UserObject;
+import org.telegram.bautrukevich.Utilities;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.ActionBar;

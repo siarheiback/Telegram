@@ -42,10 +42,10 @@ import androidx.dynamicanimation.animation.SpringForce;
 
 import com.google.android.exoplayer2.C;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.R;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ApplicationLoader;
+import org.telegram.bautrukevich.MediaController;
+import org.telegram.bautrukevich.R;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.LaunchActivity;
 import org.telegram.ui.PhotoViewer;

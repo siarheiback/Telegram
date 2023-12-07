@@ -3,9 +3,9 @@ package org.telegram.ui.Components.Paint;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
+import org.telegram.bautrukevich.ApplicationLoader;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.R;
 
 import java.util.Arrays;
 import java.util.List;

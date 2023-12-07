@@ -12,8 +12,8 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ImageReceiver;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ImageReceiver;
 import org.telegram.tgnet.TLObject;
 import org.telegram.ui.ActionBar.Theme;
 

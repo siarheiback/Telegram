@@ -1,6 +1,6 @@
 package org.telegram.ui.Stories.recorder;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
+import static org.telegram.bautrukevich.AndroidUtilities.dp;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -12,11 +12,8 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.checkerframework.checker.units.qual.A;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.Utilities;
-import org.telegram.ui.Components.AnimatedFloat;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.LocaleController;
 import org.telegram.ui.Components.AnimatedTextView;
 import org.telegram.ui.Components.CubicBezierInterpolator;
 

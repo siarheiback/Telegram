@@ -3,13 +3,13 @@ package org.telegram.ui.Components;
 import android.graphics.Bitmap;
 import android.text.TextUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DownloadController;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.DownloadController;
+import org.telegram.bautrukevich.FileLoader;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.MessageObject;
+import org.telegram.bautrukevich.UserConfig;
+import org.telegram.bautrukevich.Utilities;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Cells.ChatMessageCell;
 

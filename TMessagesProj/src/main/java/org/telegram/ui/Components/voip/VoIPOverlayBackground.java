@@ -12,9 +12,9 @@ import android.widget.ImageView;
 import androidx.core.graphics.ColorUtils;
 import androidx.palette.graphics.Palette;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ImageReceiver;
+import org.telegram.bautrukevich.Utilities;
 
 public class VoIPOverlayBackground extends ImageView {
 

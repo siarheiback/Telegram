@@ -1,8 +1,8 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
-import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.bautrukevich.AndroidUtilities.dp;
+import static org.telegram.bautrukevich.AndroidUtilities.dpf2;
+import static org.telegram.bautrukevich.AndroidUtilities.lerp;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -21,10 +21,9 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.Utilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class BottomPagerTabs extends View {

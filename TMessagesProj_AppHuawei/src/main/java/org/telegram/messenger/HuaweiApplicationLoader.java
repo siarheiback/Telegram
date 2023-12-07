@@ -1,9 +1,9 @@
-package org.telegram.messenger;
+package org.telegram.bautrukevich;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.huawei.hms.push.HmsMessaging;
 
-import org.telegram.messenger.huawei.BuildConfig;
+import org.telegram.bautrukevich.huawei.BuildConfig;
 
 public class HuaweiApplicationLoader extends ApplicationLoader {
     @Override

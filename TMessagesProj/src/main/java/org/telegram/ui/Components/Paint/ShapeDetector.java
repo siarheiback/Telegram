@@ -4,12 +4,12 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.DispatchQueue;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.ApplicationLoader;
+import org.telegram.bautrukevich.BuildVars;
+import org.telegram.bautrukevich.DispatchQueue;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.Utilities;
 import org.telegram.ui.ActionBar.AlertDialog;
 
 import java.io.InputStream;

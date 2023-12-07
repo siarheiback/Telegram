@@ -1,7 +1,7 @@
 package org.telegram.ui.Components.Paint.Views;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.bautrukevich.AndroidUtilities.dp;
+import static org.telegram.bautrukevich.AndroidUtilities.lerp;
 
 import android.content.Context;
 import android.graphics.Canvas;

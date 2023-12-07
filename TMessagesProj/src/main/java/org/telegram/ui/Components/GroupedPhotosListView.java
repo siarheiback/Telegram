@@ -11,11 +11,11 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Scroller;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.ImageLocation;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.MessageObject;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.FileLoader;
+import org.telegram.bautrukevich.ImageLocation;
+import org.telegram.bautrukevich.ImageReceiver;
+import org.telegram.bautrukevich.MessageObject;
 import org.telegram.tgnet.TLRPC;
 
 import java.util.ArrayList;

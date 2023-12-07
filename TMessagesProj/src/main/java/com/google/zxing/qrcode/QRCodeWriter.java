@@ -32,9 +32,9 @@ import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 import com.google.zxing.qrcode.encoder.Encoder;
 import com.google.zxing.qrcode.encoder.QRCode;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SvgHelper;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.SvgHelper;
 import org.telegram.ui.Components.RLottieDrawable;
 
 import java.util.Arrays;

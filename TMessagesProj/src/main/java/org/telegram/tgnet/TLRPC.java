@@ -16,13 +16,13 @@ import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import org.telegram.messenger.BuildVars;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.FileLog;
-import org.telegram.messenger.ImageLoader;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.SvgHelper;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.BuildVars;
+import org.telegram.bautrukevich.FileLoader;
+import org.telegram.bautrukevich.FileLog;
+import org.telegram.bautrukevich.ImageLoader;
+import org.telegram.bautrukevich.MessageObject;
+import org.telegram.bautrukevich.SvgHelper;
+import org.telegram.bautrukevich.Utilities;
 import org.telegram.tgnet.tl.TL_stories;
 import org.telegram.ui.Stories.MessageMediaStoryFull;
 import org.telegram.ui.Stories.MessageMediaStoryFull_old;

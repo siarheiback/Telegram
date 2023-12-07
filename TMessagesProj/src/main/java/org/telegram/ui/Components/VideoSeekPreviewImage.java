@@ -15,12 +15,12 @@ import android.text.TextPaint;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Bitmaps;
-import org.telegram.messenger.FileLoader;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.R;
-import org.telegram.messenger.Utilities;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.Bitmaps;
+import org.telegram.bautrukevich.FileLoader;
+import org.telegram.bautrukevich.ImageReceiver;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.Utilities;
 import org.telegram.tgnet.TLRPC;
 
 import java.io.File;

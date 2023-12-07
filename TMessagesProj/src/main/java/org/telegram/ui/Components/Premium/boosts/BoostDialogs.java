@@ -1,10 +1,10 @@
 package org.telegram.ui.Components.Premium.boosts;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.replaceTags;
-import static org.telegram.messenger.LocaleController.formatPluralString;
-import static org.telegram.messenger.LocaleController.formatString;
-import static org.telegram.messenger.LocaleController.getString;
+import static org.telegram.bautrukevich.AndroidUtilities.dp;
+import static org.telegram.bautrukevich.AndroidUtilities.replaceTags;
+import static org.telegram.bautrukevich.LocaleController.formatPluralString;
+import static org.telegram.bautrukevich.LocaleController.formatString;
+import static org.telegram.bautrukevich.LocaleController.getString;
 import static org.telegram.ui.Components.Premium.boosts.SelectorBottomSheet.TYPE_CHANNEL;
 import static org.telegram.ui.Components.Premium.boosts.SelectorBottomSheet.TYPE_COUNTRY;
 import static org.telegram.ui.Components.Premium.boosts.SelectorBottomSheet.TYPE_USER;
@@ -27,16 +27,16 @@ import android.widget.Toast;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DialogObject;
-import org.telegram.messenger.LocaleController;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.R;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.UserObject;
-import org.telegram.messenger.Utilities;
-import org.telegram.messenger.browser.Browser;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.DialogObject;
+import org.telegram.bautrukevich.LocaleController;
+import org.telegram.bautrukevich.MessageObject;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.UserConfig;
+import org.telegram.bautrukevich.UserObject;
+import org.telegram.bautrukevich.Utilities;
+import org.telegram.bautrukevich.browser.Browser;
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.ActionBar.AlertDialog;
 import org.telegram.ui.ActionBar.BaseFragment;

@@ -19,8 +19,8 @@ import android.graphics.PorterDuffXfermode;
 import androidx.annotation.Keep;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.FileLog;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.FileLog;
 
 public class RadioButton extends View {
 

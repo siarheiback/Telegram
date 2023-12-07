@@ -9,7 +9,7 @@ import android.view.animation.DecelerateInterpolator;
 
 import androidx.viewpager.widget.ViewPager;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.bautrukevich.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class BottomPagesView extends View {

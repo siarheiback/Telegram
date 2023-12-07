@@ -1,9 +1,7 @@
-package org.telegram.messenger;
+package org.telegram.bautrukevich;
 
 import com.huawei.hms.push.HmsMessageService;
 import com.huawei.hms.push.RemoteMessage;
-
-import java.util.Map;
 
 public class HuaweiPushListenerService extends HmsMessageService {
     @Override

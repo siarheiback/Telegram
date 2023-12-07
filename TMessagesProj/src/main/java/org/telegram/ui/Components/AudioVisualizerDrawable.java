@@ -4,9 +4,8 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.SharedConfig;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.LiteMode;
 import org.telegram.ui.ActionBar.Theme;
 
 import java.util.Random;

@@ -19,7 +19,7 @@ import android.view.View;
 
 import androidx.annotation.Keep;
 
-import org.telegram.messenger.AndroidUtilities;
+import org.telegram.bautrukevich.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
 public class GroupCreateCheckBox extends View {

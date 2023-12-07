@@ -1,27 +1,20 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.bautrukevich.AndroidUtilities.dp;
+import static org.telegram.bautrukevich.AndroidUtilities.lerp;
 
 import android.graphics.Canvas;
 import android.graphics.CornerPathEffect;
 import android.graphics.Paint;
 import android.graphics.Path;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffXfermode;
-import android.graphics.RectF;
-import android.graphics.Xfermode;
 import android.text.Layout;
-import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewParent;
 
 import androidx.annotation.NonNull;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.MessageObject;
-import org.telegram.ui.ActionBar.Theme;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.MessageObject;
 
 import java.util.ArrayList;
 

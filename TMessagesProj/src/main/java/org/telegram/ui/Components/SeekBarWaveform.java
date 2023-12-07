@@ -15,16 +15,15 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Shader;
 import android.os.SystemClock;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.MediaController;
-import org.telegram.messenger.MessageObject;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.MediaController;
+import org.telegram.bautrukevich.MessageObject;
 
 import java.util.ArrayList;
 

@@ -14,14 +14,14 @@ import android.view.animation.Interpolator;
 
 import androidx.core.graphics.ColorUtils;
 
-import org.telegram.messenger.AccountInstance;
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DialogObject;
-import org.telegram.messenger.ImageReceiver;
-import org.telegram.messenger.MessageObject;
-import org.telegram.messenger.MessagesController;
-import org.telegram.messenger.UserConfig;
-import org.telegram.messenger.voip.VoIPService;
+import org.telegram.bautrukevich.AccountInstance;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.DialogObject;
+import org.telegram.bautrukevich.ImageReceiver;
+import org.telegram.bautrukevich.MessageObject;
+import org.telegram.bautrukevich.MessagesController;
+import org.telegram.bautrukevich.UserConfig;
+import org.telegram.bautrukevich.voip.VoIPService;
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.TLObject;
 import org.telegram.tgnet.TLRPC;

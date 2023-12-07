@@ -4,8 +4,8 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.view.View;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.SharedConfig;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.SharedConfig;
 
 public class BlurredRecyclerView extends RecyclerListView {
 

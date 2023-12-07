@@ -1,8 +1,8 @@
 package org.telegram.ui.Components;
 
-import static org.telegram.messenger.AndroidUtilities.dp;
-import static org.telegram.messenger.AndroidUtilities.dpf2;
-import static org.telegram.messenger.AndroidUtilities.lerp;
+import static org.telegram.bautrukevich.AndroidUtilities.dp;
+import static org.telegram.bautrukevich.AndroidUtilities.dpf2;
+import static org.telegram.bautrukevich.AndroidUtilities.lerp;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -21,17 +21,16 @@ import android.graphics.RectF;
 import android.graphics.Shader;
 import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
 
 import com.google.zxing.common.detector.MathUtils;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.LiteMode;
-import org.telegram.messenger.R;
-import org.telegram.messenger.SvgHelper;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.LiteMode;
+import org.telegram.bautrukevich.R;
+import org.telegram.bautrukevich.SvgHelper;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.Premium.StarParticlesView;
 

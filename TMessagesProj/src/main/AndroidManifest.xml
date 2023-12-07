@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-    package="org.telegram.messenger"
+    package="org.telegram.bautrukevich"
     android:installLocation="auto">
 
     <supports-screens android:anyDensity="true"
@@ -88,7 +88,7 @@
     </queries>
 
     <application
-        android:name="org.telegram.messenger.ApplicationLoader"
+        android:name="org.telegram.bautrukevich.ApplicationLoader"
         android:allowBackup="true"
         android:restoreAnyVersion="true"
         android:backupAgent=".BackupAgent"
@@ -104,7 +104,7 @@
 
         <activity-alias
             android:enabled="true"
-            android:name="org.telegram.messenger.DefaultIcon"
+            android:name="org.telegram.bautrukevich.DefaultIcon"
             android:targetActivity="org.telegram.ui.LaunchActivity"
             android:exported="true">
 
@@ -118,7 +118,7 @@
 
         <activity-alias
             android:enabled="false"
-            android:name="org.telegram.messenger.VintageIcon"
+            android:name="org.telegram.bautrukevich.VintageIcon"
             android:targetActivity="org.telegram.ui.LaunchActivity"
             android:icon="@mipmap/icon_6_launcher"
             android:roundIcon="@mipmap/icon_6_launcher_round"
@@ -134,7 +134,7 @@
 
         <activity-alias
             android:enabled="false"
-            android:name="org.telegram.messenger.AquaIcon"
+            android:name="org.telegram.bautrukevich.AquaIcon"
             android:targetActivity="org.telegram.ui.LaunchActivity"
             android:icon="@mipmap/icon_4_launcher"
             android:roundIcon="@mipmap/icon_4_launcher_round"
@@ -150,7 +150,7 @@
 
         <activity-alias
             android:enabled="false"
-            android:name="org.telegram.messenger.PremiumIcon"
+            android:name="org.telegram.bautrukevich.PremiumIcon"
             android:targetActivity="org.telegram.ui.LaunchActivity"
             android:icon="@mipmap/icon_3_launcher"
             android:roundIcon="@mipmap/icon_3_launcher_round"
@@ -166,7 +166,7 @@
 
         <activity-alias
             android:enabled="false"
-            android:name="org.telegram.messenger.TurboIcon"
+            android:name="org.telegram.bautrukevich.TurboIcon"
             android:targetActivity="org.telegram.ui.LaunchActivity"
             android:icon="@mipmap/icon_5_launcher"
             android:roundIcon="@mipmap/icon_5_launcher_round"
@@ -182,7 +182,7 @@
 
         <activity-alias
             android:enabled="false"
-            android:name="org.telegram.messenger.NoxIcon"
+            android:name="org.telegram.bautrukevich.NoxIcon"
             android:targetActivity="org.telegram.ui.LaunchActivity"
             android:icon="@mipmap/icon_2_launcher"
             android:roundIcon="@mipmap/icon_2_launcher_round"
@@ -240,7 +240,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
-                <data android:mimeType="vnd.android.cursor.item/vnd.org.telegram.messenger.android.profile"/>
+                <data android:mimeType="vnd.android.cursor.item/vnd.org.telegram.bautrukevich.android.profile"/>
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
@@ -260,7 +260,7 @@
                 <data android:scheme="tg" />
             </intent-filter>
             <intent-filter>
-                <action android:name="org.telegram.messenger.CREATE_STICKER_PACK"/>
+                <action android:name="org.telegram.bautrukevich.CREATE_STICKER_PACK"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="*/*"/>
             </intent-filter>
@@ -344,7 +344,7 @@
 <!--            </intent-filter>-->
 <!--        </activity>-->
         <activity
-            android:name="org.telegram.messenger.OpenChatReceiver"
+            android:name="org.telegram.bautrukevich.OpenChatReceiver"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
             android:exported="true">
         </activity>
@@ -373,7 +373,7 @@
             android:name=".AutoMessageHeardReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.telegram.messenger.ACTION_MESSAGE_HEARD"/>
+                <action android:name="org.telegram.bautrukevich.ACTION_MESSAGE_HEARD"/>
             </intent-filter>
         </receiver>
 
@@ -389,7 +389,7 @@
             android:name=".AutoMessageReplyReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="org.telegram.messenger.ACTION_MESSAGE_REPLY"/>
+                <action android:name="org.telegram.bautrukevich.ACTION_MESSAGE_REPLY"/>
             </intent-filter>
         </receiver>
 

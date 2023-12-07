@@ -9,9 +9,9 @@ import android.graphics.Paint;
 import android.graphics.Shader;
 import android.os.Process;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.DispatchQueue;
-import org.telegram.messenger.SharedConfig;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.DispatchQueue;
+import org.telegram.bautrukevich.SharedConfig;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
-package org.telegram.messenger;
+package org.telegram.bautrukevich;
 
-import org.telegram.messenger.regular.BuildConfig;
+import org.telegram.bautrukevich.regular.BuildConfig;
 
 public class ApplicationLoaderImpl extends ApplicationLoader {
     @Override

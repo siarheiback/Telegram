@@ -1,17 +1,13 @@
 package org.telegram.ui.Stories.recorder;
 
-import android.content.Context;
 import android.graphics.Rect;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewTreeObserver;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Size;
 
-import org.telegram.messenger.AndroidUtilities;
-import org.telegram.messenger.Utilities;
-import org.telegram.ui.Components.SizeNotifierFrameLayout;
+import org.telegram.bautrukevich.AndroidUtilities;
+import org.telegram.bautrukevich.Utilities;
 
 public class KeyboardNotifier {
 
